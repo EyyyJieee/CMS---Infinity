@@ -118,46 +118,8 @@
   <div class="all-content">
     <div class="post-content">
       <h3 class="header-text1">Latest Post</h3>
-
       <div id="posts">
-
       </div>
-      <!-- <div class="card">
-        <div class="column-image">
-            <img src="assets/img/post1.jpg" alt="">
-        </div>
-        <div class="card-content">
-            <p class="date">December 02, 2021</p>
-            <p class="title-head">A DAY FOR ALL</p>
-            <p class="read">Today, we celebrate a day every person who has seen challenges as opportunities to grow and foster positivity. JCI Zamboanga is with you as we celebrate the International Day of Persons with Disabilities! May this day be
-                a reminder that we must not need a special ocassion to treat everyone the same way we treat ourselves.
-                <br>#InternationalDayOfPersonsWithDisabilities</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="column-image">
-            <img src="assets/img/post1.jpg" alt="">
-        </div>
-        <div class="card-content">
-            <p class="date">December 02, 2021</p>
-            <p class="title-head">A DAY FOR ALL</p>
-            <p class="read">Today, we celebrate a day every person who has seen challenges as opportunities to grow and foster positivity. JCI Zamboanga is with you as we celebrate the International Day of Persons with Disabilities! May this day be
-                a reminder that we must not need a special ocassion to treat everyone the same way we treat ourselves.
-                <br>#InternationalDayOfPersonsWithDisabilities</p>
-        </div>
-      </div>
-      <div class="card">
-        <div class="column-image">
-            <img src="assets/img/post1.jpg" alt="">
-        </div>
-        <div class="card-content">
-            <p class="date">December 02, 2021</p>
-            <p class="title-head">A DAY FOR ALL</p>
-            <p class="read">Today, we celebrate a day every person who has seen challenges as opportunities to grow and foster positivity. JCI Zamboanga is with you as we celebrate the International Day of Persons with Disabilities! May this day be
-                a reminder that we must not need a special ocassion to treat everyone the same way we treat ourselves.
-                <br>#InternationalDayOfPersonsWithDisabilities</p>
-        </div>
-      </div> -->
     </div>
     <div class="event-content">
     <h3 class="header-text2">Discover Events</h3>

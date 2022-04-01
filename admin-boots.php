@@ -166,7 +166,7 @@
                 <p>Add to Your Post</p>
                 <div class="upload-btn-wrapper">
                   <button class="btn-post">Select a file</button>
-                  <input type="file" name="img" id="img" accept="image/png, image/gif, image/jpeg"  >
+                  <input type="file" name="img" id="img" accept="image/png, image/gif, image/jpeg, image/jpg"  >
                 </div>
               </div>
             </form>
