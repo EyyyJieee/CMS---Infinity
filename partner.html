@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/partner.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>JCIZ Goals</title>
+    </head>
+<body>
+  <nav>
+    <div class="navbar">
+      <i class='bx bx-menu'></i>
+      <div class="logo"><a href="index.php>"><img src="assets/img/LOGO-Edited2.png" class="header_logo" alt="JCI logo"></a></div>
+      <div class="nav-links">
+        <ul class="links">
+            <li><a href="index.php" class="active">HOME</a></li>
+            <li><a href="goals.html">GOALS</a></li>
+            <li><a href="about-us.html">ABOUT US</a></li>
+          <li>
+            <a href="fund_project.html">TAKE ACTION</a>
+            <i class='bx bxs-chevron-down js-arrow arrow '></i>
+            <ul class="js-sub-menu sub-menu">
+              <li><a href="fund_project.html">Fund A Program</a></li>
+              <li><a href="volunteer.html">Volunteer</a></li>
+              <li><a href="partner.html">Partner with Us</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- CONTENT-->
+
+<section class="banner" id="banner-section">
+    <img src="assets/img/partner-head.gif" alt="">
+</section>
+
+<div class="details">
+    <section id="about-section">
+      <img src="assets/img/partner-head.png" class="partner-head">
+        <p> The Junior Chamber International (JCI) Zamboanga, an affiliate with the Junior Chamber 
+          International, is an all-male chapter of your civic citizens in the city of Zamboanga known for its 
+          dedication and involvement to worthwhile projects and activities that include community service and care 
+          for the environment depicting the roles of catalysts for positive change.
+          Through the efforts of the 2022 Junior Chamber International – Zamboanga Inc. Local Organization 
+          President, Junah M. Tamse who answered the call for leadership, and is in the mission of providing 
+          development opportunities through several skills-development ventures that will empower young people 
+          to create positive change will ultimately make his members a well-rounded leader in managing projects 
+          and evaluating impacts that ripples effects across borders.
+          
+          Collaborating with like-minded people brings our 
+          projects to life! We are able to make a 
+          significant difference through a variety of 
+          endeavors, and you can be a part of it!</p>
+      </section>
+</div>
+
+
+<div class="form-page">
+  <div class="container1">
+    <h3>Junior Chamber International (JCI) Zamboanga Inc</h3>
+    <form action="action_page.php">
+  
+      <label for="fname">First Name</label>
+      <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+        <br>
+      <label for="lname">Middle Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your middle name.." required>
+        <br>
+      <label for="lname">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+        <br>
+      <label for="lname">Email</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your email.." required>
+        <br>
+      <label for="lname">Age</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your age.." required>
+        <br>
+      <label for="lname">Contact Number</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your contact nummber.." required>
+        <br>
+      <label for="lname">Address</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your address.." required>
+        <br>
+      <label for="lname">Company Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your company name.." required>
+        <br>
+      <label for="lname">Business Permit</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your business permit.." required>
+        <br>
+      <a href="" download="agreement"><i class='bx bxs-download'></i>  Download Partnership Agreement</a>
+        <br>
+      <label for="lname">Upload Partnership Agreement</label> <br>
+      <div class="drag-area">
+        <div class="icon"><i class='bx bxs-cloud-upload' style='color: #0097d8'></i></div>
+        <header>Drag & Drop to Upload File</header>
+        <span>OR</span>
+        <button>Browse File</button>
+        <input type="file" hidden>
+      </div>
+        <br>
+        
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+  <div class="container2">
+    <div class="gallery">
+      <img src="assets/img/partner-gif.gif" alt="">
+      <img src="assets/img/partner-qoutes.gif" alt="">
+    </div>
+    <div class="slideshow-container">
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 5</div>
+        <img src="assets/img/partner1.png" alt="">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 5</div>
+        <img src="assets/img/partner2.png" alt="">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 5</div>
+        <img src="assets/img/partner3.png" alt="">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">4 / 5</div>
+        <img src="assets/img/partner4.png" alt="">
+      </div>
+      <div class="mySlides fade">
+        <div class="numbertext">5 / 5</div>
+        <img src="assets/img/partner5.png" alt="">
+      </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+
+    <script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";  
+      }
+      slides[slideIndex-1].style.display = "block";  
+    }
+    </script>
+    <img src="assets/img/sdg-icons.png" class="sdg-icons">
+  </div>
+
+
+
+</div>
+
+<!-- FOOTER-->
+<footer>
+  <div class="l-footer">
+      <h1>
+          <img src="assets/img/LOGO-Edited2.png" alt="" width="130px">
+      </h1>
+      <p>JCI Zamboanga Giving Our All for Livability and Sustainability colloquially known as JCIZ G.O.A.L.S. 
+          is a flagship program of the Junior Chamber International – Zamboanga; an affiliate of the Junior Chamber 
+          International Philippines that is aimed to develop, nurture, advance, and solve the movement of the 17 
+          United Nations Sustainable Development Goals (UN SDG) before the year 2030.</p>
+  </div>
+  <ul class="r-footer">
+      <li>
+          <h2>Social Media</h2>
+          <ul class="box">
+              <li><a href="facebook.com/jcizamboanga.inc/">Facebook</a></li>
+              <li><a href="twitter.com/jcizamboanga.inc/">Twitter</a></li>
+              <li><a href="pinterest.com/jcizamboanga.inc/">Pinterest</a></li>
+              <li><a href="gribble.com/jcizamboanga.inc/">Dribbble</a></li>
+          </ul>
+      </li>
+      <li class="contacts">
+          <h2>Contacts</h2>
+          <ul class="box h-box">
+                  <h4>Address:</h4>
+                      <p><a>Doña Maria, 818, Tetuan, Zamboanga City, 7000, Philippines</a></p>
+                  <h4>Email:</h4>
+                      <p><a href="mailto:#">jci.zamboanga1948@gmail.com</a></p>
+                  <h4>Phones:</h4>
+                      <p><a href="tel:#">( 062) 992 1706</a> <span>or</span> <a href="tel:#">(+63) 935 614 2730</a></p>
+          </ul>
+      </li>
+      <li>
+          <h2>Partners</h2>
+          <ul class="box">
+              <li><a href="https://homestyledepot.com.ph/" target="_blank">Home Style Depot</a></li>
+              <li><a href="https://www.facebook.com/SmartKInc2017/" target="_blank">Smart K Materials Testing Laboratory Inc.</a></li>
+              <li><a href="https://www.facebook.com/Anchors-Geotechnical-Consulting-Service-479861212787803/" target="_blank">Anchors Geotechnical Consulting Service</a></li>
+              <li><a href="https://www.facebook.com/TingogPartyList/" target="_blank">Tingog Partylist</a></li>
+              <li><a href="https://www.unilever.com/our-company/our-leadership/alan-jope/" target="_blank">Unilever</a></li>
+              <li><a href="#">RCDG Corporation</a></li>
+          </ul>
+      </li>
+  </ul>
+  <div class="b-footer">
+  <p>All rights reserved by ©JCI Zamboanga, Inc. 2021 </p>
+  </div>
+</footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>

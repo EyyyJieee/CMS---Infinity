@@ -1,0 +1,308 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica, Arial,sans-serif;
+}
+body{
+  background-color: #f0f2f5;
+}
+.selector-for-some-widget {
+  box-sizing: content-box;
+}
+.navbar {
+  background-color: #0C0C31;
+}
+.navbar .navbar-nav .nav-link{
+  color: #fff;
+}
+.navbar .navbar-nav .nav-link:hover{
+color: #f44336;
+}
+.navbar .header_logo{
+  width: 60px;
+  margin-left: 80px !important;
+}
+.navbar .navbar-nav .dropdown-menu{
+  background-color:#0c0c31b9 ;
+}
+.navbar .dropdown-menu .dropdown-item{
+  color: #fff;
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+  background-color: #0C0C31;
+}
+
+/**CONTENT**/
+.container-sm{
+  margin-top: 40px;
+  width: 70%!important;
+  float: left;
+  margin-left: 5%!important;
+}
+.container{
+  margin-top: 15%;
+}
+.container .profile-pic{
+  width: 50%;
+  border-radius: 50%;
+}
+.container h4{
+  font-size: 22px;
+  margin:20px 5px;
+}
+.container .col, .event{
+  min-height: 100vh;
+}
+.container .row .profile{
+  background-color: #0097d8;
+  height: 100%;
+  color: #fff;
+  border-radius: 2px;
+  margin-bottom: 50px;
+}
+.profile .profile-pic{
+  margin-left: 25%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+.profile h3{
+  font-size: 16px;
+  margin-left: 10%;
+  font-weight: 700;
+}
+.profile p{
+  width: 100%;
+}
+
+.profile .files{
+  box-shadow: 0 1px 2px rgb(0,0,0,0.2);
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  transition: 0.3s ease;
+  cursor: pointer;
+  margin-top: 10%;
+  margin-bottom: 5%;
+}
+.profile .files:hover{
+  background-color: #0b8ac0;
+}
+.files .bi-file-earmark-text{
+  font-size: 60px;
+}
+.files .file-name{
+  font-weight: 600;
+  color: #fff;
+}
+.profile a{
+text-decoration: none;
+}
+
+.col .create-post{
+  width: 100%;
+  height: 9vh;
+  box-shadow: 0 1px 2px rgb(0,0,0,0.2);
+  border-radius: 2px;
+}
+.col .col-logo{
+  width: 15%;
+  margin-left: 8px;
+}
+.col .col-button{
+  width: 80%;
+}
+.col .col-button .btn{
+  width: 97%;
+  margin-top: 7px;
+  background-color: #e4e6eb;
+  color: #0C0C31;
+  font-weight: 500;
+}
+.col .col-button .btn:hover{
+  background-color: #00739d8a;
+}
+.col .card{
+  box-shadow: 0 1px 2px rgb(0,0,0,0.2);
+}
+.card .card-body .btn-group{
+  position: absolute;
+  left: 93%;
+  top: 0%;
+}
+
+/**EVENT***/
+.event .create-event{
+  width: 100%;
+  height: 9vh;
+  box-shadow: 0 1px 2px rgb(0,0,0,0.2);
+  border-radius: 2px;
+}
+.event .event-logo{
+  width: 22%;
+  margin-left:7px;
+}
+.event .event-button{
+  width: 75%;
+}
+.event .event-button .btn{
+  width: 90%;
+  margin-top: 7px;
+  background-color: #e4e6eb;
+  color: #0C0C31;
+  font-weight: 500;
+}
+.event .event-button .btn:hover{
+  background-color: #00739d8a;
+}
+.event .event-card{
+  width: 18rem;
+  margin: 20px auto;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgb(0,0,0,0.2);
+}
+.event .event-card .card-img-top{
+  width: 90%;
+  margin-left: 5%;
+  margin-top: 10%;
+}
+.event-card .btn-group{
+  position: absolute;
+  left: 90%;
+}
+
+/**modal-post**/
+form .content-create,
+.page .list li .column{
+  display: flex;
+  align-items: center;
+}
+form .content-create img{
+  cursor: default;
+  max-width: 52px;
+}
+form .content-create .details{
+  margin: 0px 0px 0px 12px;
+}
+form .content-create .details p{
+  font-size: 17px;
+  font-weight: 500;
+  padding-top: 5px;
+}
+form :where(textarea, button){
+  width: 100%;
+  outline: none;
+  border: none;
+}
+form textarea{
+  resize: none;
+  font-size: 18px;
+  margin-top: 30px;
+  min-height: 100px;
+}
+form textarea::placeholder{
+  color: #858585;
+}
+form textarea:focus::placeholder{
+  color: #b3b3b3;
+}
+form :where(.options){
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form .options{
+  height: 47px;
+  margin:  0;
+  padding: 0px 15px 0px 15px;
+  border-radius: 7px;
+  border: 1px solid #B9B9B9;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+form .options :where(.list, li),
+.page :where(.arrow-back, .icon, li .radio){
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+form .options p{
+  color: #595959;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: default;
+  padding-top: 15px;
+}
+form .options .list{
+  list-style: none;
+}
+.options .list li{
+  height: 35px;
+  width: 42px;
+  margin: 0 -1px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.options .list li:hover{
+  background: #f0f1f4;
+}
+.options .list li img{
+  width: 23px;
+}
+.container .page{
+  opacity: 0;
+  transition: opacity 0.12s ease;
+}
+.container.active .page{
+  opacity: 1;
+}
+
+.modal-body .bi{
+    font-size: 30 px;
+    margin: 2%
+  }
+  .modal-body .social-media{
+      color: #0C0C31;
+      cursor: pointer;
+  }
+.modal-body .social-media:hover{
+    color: #00739d;
+}
+
+
+/***modal - event****/
+input[type=text], input[type=date], textarea{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+/***button upload ***/
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.btn-post {
+  border: 1px solid #a3a1a1;
+  color: gray;
+  background-color: white;
+  padding: 5px 13px;
+  border-radius: 8px;
+  font-size: 13px;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  cursor: pointer;
+}

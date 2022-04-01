@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="assets/css/donate-files.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <title>JCIZ Goals</title>
+  </head>
+  <body>
+    <!--NAVIGATION-->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="admin-boots.php"><img src="assets/img/LOGO-Edited2.png" class="header_logo" alt="JCI logo"></a>
+            <form class="d-flex">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="admin-boots.php"><i class="bi bi-person-circle"></i> My Profile</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Submitted Files
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="proposal-files.html">Proposal Forms</a></li>
+                            <li><a class="dropdown-item" href="donation-files.html">Donation Forms</a></li>
+                            <li><a class="dropdown-item" href="volunteer-files.html">Volunteer Forms</a></li>
+                            <li><a class="dropdown-item" href="membership-files.html">Membership Forms</a></li>
+                            <li><a class="dropdown-item" href="partner-files.html">Partnership Forms</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="index.php">Log out</a>
+                        </li>
+                    </ul>
+                </div>
+            </form>
+            </div>
+        </nav>
+        <img src="assets/img/laptop-icon.gif" alt="" style="width:25%; margin-left:50px;">
+        <div class="content">
+        <h2>Hi, Gian Brix Bungco!</h2>
+        <h4> Welcome to your <b>JCIZ GOALS</b>  Submitted Donation Forms Dashboard</h4>
+        </div>
+        <div class="icon">
+        <i class="bi bi-printer"></i>
+        <i class="bi bi-download"></i>
+        </div>
+        <div class="container">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                  <th class="col">Full Name</th>
+                  <th class="col">Email</th>
+                  <th class="col">Contact Number</th>
+                  <th class="col">Address</th>
+                  <th class="col">Project/Program Title</th>
+                  <th class="col">Date Submitted</th>
+                  <th class="col">Message</th>
+                  <th class="col">File</th>
+                </tr>
+              </thead>
+              <tbody id="tbody">
+                <tr class="tr">
+                  <td class="col name">Gian Bungco</td>
+                  <td class="col">bungco@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col"> <a href="assets/img/sgd.pdf" target="_blank">files.pdf</a> </td>
+                </tr>
+                <!-- <tr>
+                  <td class="col name">Abbatiello Nicole</td>
+                  <td class="col">abbatielo@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Bergen Danielle</td>
+                  <td class="col">bergen@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">April Laparan</td>
+                  <td class="col">april@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Clarke Thomas</td>
+                  <td class="col">clark@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Berry Jonjon</td>
+                  <td class="col">berry@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Alnasib Munari</td>
+                  <td class="col">alnasib@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Brennan Espinosa</td>
+                  <td class="col">brennan@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">JCI Kids</td>
+                  <td class="col">October 8, 2021</td>
+                  <td class="col">Your support through the years has been greatly influential. It is your continued support that sustains our mission and makes all the difference.</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Danny Mae Egido</td>
+                  <td class="col">danny@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">infinity</td>
+                  <td class="col">kh00546gg</td>
+                  <td class="col">October 5, 2021</td>
+                  <td class="col">proposals.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Juan Delos Reyes</td>
+                  <td class="col">juan@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">infinity</td>
+                  <td class="col">kh00546gg</td>
+                  <td class="col">January 4, 2020</td>
+                  <td class="col">project.docx</td>
+                </tr>
+                <tr>
+                  <td class="col name">Clark Mendoza</td>
+                  <td class="col">clark@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">infinity</td>
+                  <td class="col">kh00546gg</td>
+                  <td class="col">May 5,2020</td>
+                  <td class="col">prog.docx</td>
+                </tr>
+                <tr>
+                    <td class="col name">Berry Jonjon</td>
+                    <td class="col">berry@gmail.com</td>
+                  <td class="col">09123456378</td>
+                  <td class="col">Pasonanca, Zamboanga City</td>
+                  <td class="col">infinity</td>
+                  <td class="col">kh00546gg</td>
+                    <td class="col">August 4,2020</td>
+                    <td class="col">proposals.docx</td>
+                  </tr> -->
+              </tbody>
+        </table>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>
+      $(document).ready(function() {
+        displayDonations();
+      });
+
+      function displayDonations(){
+        $.ajax({
+          url:'script/admin.php?q=donations',
+          dataType: 'json',
+          type: 'GET',
+          contentType: false,
+          processData: false,
+          success: function(data){
+            $("#tbody").children(".tr").remove();
+            if(data.length>0){
+              for(let x = 0; x < data.length; x++){
+                let d = `<tr class="tr">
+                  <td class="col name">${data[x].lastname + ', ' + data[x].firstname}</td>
+                  <td class="col">${data[x].email}</td>
+                  <td class="col">${data[x].contact_no}</td>
+                  <td class="col">${data[x].address}</td>
+                  <td class="col">${data[x].title}</td>
+                  <td class="col">${data[x].created_at}</td>
+                  <td class="col">${data[x].msg}</td>
+                  <td class="col"> <a href="assets/img/sgd.pdf" target="_blank">files.pdf</a> </td>
+                </tr>`;
+                $("#tbody").append(d);
+              }
+            }
+            return;
+          },
+          error: function(a,b,c){
+              alert('internet connection error..');
+              return;
+          }
+        });
+      }
+    </script>
+  </body>
+</html>
