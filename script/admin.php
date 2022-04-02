@@ -13,19 +13,22 @@ if(isset($reqs->q) and $reqs->q==='donations'){
 
 if ($method === 'POST') {
     $img = isset($_FILES['img']) ? $_FILES['img'] : null;
-    $path = 'assets/img/posts/';
+    $path = '../assets/img/posts/';
+    $db_path='assets/img/posts/';
     $file='';
+    $db_file='';
     $data = (array)$reqs;
     if(!is_null($img)){
         $info = pathinfo($img['name']);
         if(isset($reqs->update) ?? $reqs->update){
             $file = $path . 'post_' . $data['id'] .".". $info['extension'];
+            $db_file = $db_path . 'post_' . $data['id'] .".". $info['extension'];
             if (file_exists($file)) {
                 unlink($file);
             }
             move_uploaded_file( $img['tmp_name'], $file);
             unset($data['id'], $data['img'], $data['update']);
-            $data['image'] = $file;
+            $data['image'] = $db_file;
             $updated = update('posts', $data, "id='$reqs->id'");
             return respond($updated);
         }
@@ -33,10 +36,11 @@ if ($method === 'POST') {
         $last_id = insert('posts', (array)$reqs);
     
         $file = $path . 'post_' . $last_id .".". $info['extension'];
+        $db_file = $db_path . 'post_' . $last_id .".". $info['extension'];
         if (file_exists($file)) {
             unlink($file);
         }
-        query_noresult("update posts set image='$file' where id='$last_id'");
+        query_noresult("update posts set image='$db_file' where id='$last_id'");
         move_uploaded_file( $img['tmp_name'], $file);
         return respond($last_id);
     }
